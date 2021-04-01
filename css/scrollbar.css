@@ -1,0 +1,13 @@
+.scrollbar-thumb {
+    background: #eaeaea !important;
+    z-index: 10000000 !important;
+}
+
+.scrollbar-track {
+    background: #222222 !important;
+    z-index: 10000000 !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

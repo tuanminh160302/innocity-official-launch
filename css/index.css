@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Montserrat-Thin;
+    src: url(/fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/fonts/Montserrat-Bold.ttf);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: gray;
+    overflow-x: hidden;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    transform: scale(.6) translateY(150vh);
+    -webkit-transform: scale(.6) translateY(150vh);
+    -moz-transform: scale(.6) translateY(150vh);
+    -ms-transform: scale(.6) translateY(150vh);
+    -o-transform: scale(.6) translateY(150vh);
+}
+
+.landing-page {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #222222;
+}
+
+.landing-page-i {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: #222222;
+}
+
+/* Styling 3d canvas */
+#building-canvas {
+    border: none;
+    outline: none;
+    position: relative;
+    top: 20vh;
+}
+
+#landing-page-brand {
+    cursor: default;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    line-height: calc(3em + 2vh);
+}
+
+#landing-page-overall {
+    cursor: default;
+    font-family: Montserrat-Thin;
+    font-size: 1.25em;
+    position: absolute;
+    margin: 0;
+    color: white;
+    height: auto;
+    width: 20vw;
+    line-height: 3em;
+    right: 15vw;
+    top: 50vh;
+    transform: translateY(-50%);
+}
+
+
