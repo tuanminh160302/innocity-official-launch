@@ -2,7 +2,7 @@
 let container, scene, camera, renderer, building, controls, controls2;
 
 function init() {
-  container = document.querySelector('.landing-page-1');
+  // container = document.querySelector('.menu-container-right');
 
   //create scene
   scene = new THREE.Scene();
@@ -21,7 +21,7 @@ function init() {
   ambient = new THREE.AmbientLight(0x595c61, 2);
   scene.add(ambient);
 
-  directionalLight = new THREE.DirectionalLight(0xffffff, 4);
+  directionalLight = new THREE.DirectionalLight(0xffffff, 3);
   directionalLight.position.set(20, 20, 10);
   directionalLight.castShadow = true;
 
@@ -36,7 +36,7 @@ function init() {
 
   //Renderer
   renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-  renderer.setSize(window.innerWidth/1.5, window.innerHeight/1.5, false);
+  renderer.setSize(window.innerWidth/2, window.innerHeight/2, false);
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.shadowMap.enabled = true;
 
@@ -90,3 +90,6 @@ function animate() {
   controls2.update();
 }
 init();
+
+
+
