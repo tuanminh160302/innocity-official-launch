@@ -38,10 +38,10 @@ html, body {
 }
 
 .comp-details {
-    height: auto;
+    min-height: 170vh;
     width: 100vw;
     margin: 0;
-    padding: 0 0 10vh 0;
+    padding: 15vh 0 0 0;
 }
 
 #def-logo {
@@ -111,7 +111,7 @@ html, body {
     margin: 0;
     font-family: Montserrat-Thin;
     font-size: 1em;
-    line-height: 2.5em;
+    line-height: 2em;
 }
 
 .def-details-head {
