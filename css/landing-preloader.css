@@ -11,7 +11,7 @@
     z-index: 100000000;
 
     
-    display: none;
+    /* display: none; */
 }
 
 .landing-preloader #window {
@@ -64,7 +64,7 @@
     display: none;
 }
 
-#bp-red path {
+/* #bp-red path {
     animation: bp-red .5s alternate-reverse infinite;
 }
 
@@ -92,7 +92,7 @@
     to {
         transform: rotateZ(180deg);
     }
-}
+} */
 
 .landing-preloader-end {
     position: absolute;

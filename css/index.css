@@ -28,11 +28,11 @@ html, body {
     margin: 0;
     padding: 0;
     background: linear-gradient(180deg, rgba(63,75,111,1) 0%, rgba(23,18,35,1) 100%);
-    /* transform: scale(.6) translateY(150vh);
+    transform: scale(.6) translateY(150vh);
     -webkit-transform: scale(.6) translateY(150vh);
     -moz-transform: scale(.6) translateY(150vh);
     -ms-transform: scale(.6) translateY(150vh);
-    -o-transform: scale(.6) translateY(150vh); */
+    -o-transform: scale(.6) translateY(150vh);
 }
 
 .landing-page {
