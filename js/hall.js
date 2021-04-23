@@ -11,8 +11,8 @@ window.onload = () => {
         gsap.to('#awards-svg path:nth-child(9)', 6, {delay: 1.6, strokeDashoffset: 0})
         
         gsap.to('#awards-svg', .5, {delay: 3, fill: 'white'})
-        gsap.to('.fade-in', .5, { delay: 3, y: 0, opacity: 1})
-    }, 1000)
+        gsap.to('.fade-in', .9, { delay: 3, y: 0, opacity: 1, ease: 'power4.inOut'})
+    }, 500)
 }
 
 var sceneParallax = document.querySelector('.portal-con');
@@ -21,6 +21,11 @@ var parallaxInstance = new Parallax(sceneParallax, {
 });
 
 var sceneParallax = document.querySelector('.grave-con');
+var parallaxInstance = new Parallax(sceneParallax, {
+    relativeInput: true
+});
+
+var sceneParallax = document.querySelector('.star-con');
 var parallaxInstance = new Parallax(sceneParallax, {
     relativeInput: true
 });
