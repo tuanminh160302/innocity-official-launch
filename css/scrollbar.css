@@ -1,4 +1,4 @@
-/* .scrollbar-thumb {
+.scrollbar-thumb {
     background: #B8F1F4 !important;
     z-index: 10000000 !important;
 }
@@ -6,7 +6,7 @@
 .scrollbar-track {
     background: transparent !important;
     z-index: 10000000 !important;
-} */
+}
 
 ::-webkit-scrollbar {
     width: 10px;
