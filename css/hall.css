@@ -1,0 +1,198 @@
+@font-face {
+    font-family: Montserrat-Thin;
+    src: url(/fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/fonts/Montserrat-Bold.ttf);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: rgb(23,18,35);
+    background: linear-gradient(180deg, rgba(23,18,35,1) 0%, rgba(63,75,111,1) 100%);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#awards-svg {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    top: 5vh;
+    height: 30vh;
+    width: auto;
+    fill: transparent;
+    margin-bottom: 5vh;
+    /* animation: text-fill .5s ease forwards 3s; */
+}
+
+#awards-svg path:nth-child(1) {
+    stroke-dasharray: 3157.538818359375px;
+    stroke-dashoffset: 3157.538818359375px;
+    /* animation: line-anim 8s ease forwards; */
+}
+
+#awards-svg path:nth-child(2) {
+    stroke-dasharray: 576.6338500976562px;
+    stroke-dashoffset: 576.6338500976562px;
+    /* animation: line-anim 2s ease forwards .3s; */
+}
+
+#awards-svg path:nth-child(3) {
+    stroke-dasharray: 925.2933959960938px;
+    stroke-dashoffset: 925.2933959960938px;
+    /* animation: line-anim 2s ease forwards .6s; */
+}
+
+#awards-svg path:nth-child(4) {
+    stroke-dasharray: 576.6338500976562px;
+    stroke-dashoffset: 576.6338500976562px;
+    /* animation: line-anim 2s ease forwards .9s; */
+}
+
+#awards-svg path:nth-child(5) {
+    stroke-dasharray: 643.9554443359375px;
+    stroke-dashoffset: 643.9554443359375px;
+    /* animation: line-anim 2s ease forwards 1.2s; */
+}
+
+#awards-svg path:nth-child(6) {
+    stroke-dasharray: 628.0800170898438px;
+    stroke-dashoffset: 628.0800170898438px;
+    /* animation: line-anim 2s ease forwards 1.5s; */
+}
+
+#awards-svg path:nth-child(7) {
+    stroke-dasharray: 594.2423095703125px;
+    stroke-dashoffset: 594.2423095703125px;
+    /* animation: line-anim 2s ease forwards 1.8s; */
+}
+
+#awards-svg path:nth-child(8) {
+    stroke-dasharray: 1509.9959716796875px;
+    stroke-dashoffset: 1509.9959716796875px;
+    /* animation: line-anim 2s ease forwards 2.5s; */
+}
+
+#awards-svg path:nth-child(9) {
+    stroke-dasharray: 1448.03515625px;
+    stroke-dashoffset: 1448.03515625px;
+    /* animation: line-anim 6s ease forwards 1.6s; */
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes text-fill {
+    from {
+        fill: transparent;
+    }
+
+    to {
+        fill: white;
+    }
+}
+
+.sub-section {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.hall-content-con {
+    width: 70vw;
+    height: 50vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) translateY(5vh);
+    -webkit-transform: translateX(-50%) translateY(5vh);
+    -ms-transform: translateX(-50%) translateY(5vh);
+    -moz-transform: translateX(-50%) translateY(5vh);
+    -o-transform: translateX(-50%) translateY(5vh);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hall-content {
+    height: 100%;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.hall-svg {
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#portal-svg {
+    height: 80%;
+    width: auto;
+}
+
+#graveyard-svg {
+    width: 80%;
+    height: auto;
+}
+
+.hall-content-letter {
+    color: #B8F1F4;
+    font-size: 2em;
+    text-align: center;
+    font-family: Montserrat-Medium;
+    margin: 10vh 0 0 0;
+}
+
+.hall-content-head {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-family: Montserrat-Medium;
+    font-style: italic;
+    margin: 3.5vh 0 2vh 0;
+}
+
+.hall-content-text {
+    color: white;
+    color: white;
+    font-size: 1.1em;
+    line-height: 2em;
+    font-family: Montserrat-Thin;
+    margin: 0;
+}
+
+.fade-in {
+    opacity: 0;
+}

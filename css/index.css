@@ -22,22 +22,12 @@ html, body {
     overflow-x: hidden;
 }
 
-.circle {
-	position: absolute;
-    border: solid 2px #ccc;
-    padding: 30px;
-    border-radius: 50%;  
-    background: transparent;
-    backdrop-filter: grayscale(1) blur(1.2px);
-    z-index: 10000000000;
-    pointer-events: none;
-}
-
 .container {
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
+    background: linear-gradient(180deg, rgba(63,75,111,1) 0%, rgba(23,18,35,1) 100%);
     /* transform: scale(.6) translateY(150vh);
     -webkit-transform: scale(.6) translateY(150vh);
     -moz-transform: scale(.6) translateY(150vh);
@@ -50,7 +40,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background: #171223;
+    /* background: #171223; */
     overflow-x: hidden;
 }
 
@@ -59,17 +49,17 @@ html, body {
     width: 100vw;
     margin: 0;
     padding: 0;
-    background: #171223;
+    /* background: #171223; */
 }
 
 #landing-page-brand {
     cursor: default;
     width: 50%;
-    filter: invert(1);
-    -webkit-filter: invert(1);
-    -moz-filter: invert(1);
-    -ms-filter: invert(1);
-    -o-filter: invert(1);
+    filter: invert(0);
+    -webkit-filter: invert(0);
+    -moz-filter: invert(0);
+    -ms-filter: invert(0);
+    -o-filter: invert(0);
 }
 
 #landing-page-overall {
