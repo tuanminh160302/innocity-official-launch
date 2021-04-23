@@ -1,4 +1,4 @@
-.scrollbar-thumb {
+/* .scrollbar-thumb {
     background: #B8F1F4 !important;
     z-index: 10000000 !important;
 }
@@ -6,8 +6,17 @@
 .scrollbar-track {
     background: transparent !important;
     z-index: 10000000 !important;
-}
+} */
 
 ::-webkit-scrollbar {
-    display: none;
-}
+    width: 10px;
+  }
+    ::-webkit-scrollbar-track {
+    background: transparent !important;
+    z-index: 10000000 !important;
+  }
+    ::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: #B8F1F4 !important;
+    z-index: 10000000 !important;
+  }
