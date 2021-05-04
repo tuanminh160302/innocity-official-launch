@@ -1,79 +1,176 @@
-footer {
-    height: 50vh;
-    background: transparent;
-    margin: 0;
-    padding: 5vh 0 0 0;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    footer {
+        min-height: 50vh;
+        background: transparent;
+        margin: 0;
+        padding: 5vh 0 0 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-left {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background: transparent;
+    }
+    
+    #footer-left-heading {
+        cursor: default;
+        margin: 0 0 0 10vw;
+        color: #B8F1F4;
+        font-family: Montserrat-Bold;
+        font-size: 1.5em;
+    }
+    
+    .contact-i {
+        line-height: 1.75em;
+        font-family: Montserrat-Medium;
+        font-size: .75em;
+        margin: 2vh 10vw 0 10vw;
+        cursor: default;
+    }
+    
+    .c-name{
+        margin: 0;
+        color: white;
+    }
+    
+    .c-email {
+        margin: 0;
+        color: white;
+    }
+    
+    .c-phone {
+        margin: 0;
+        color: white;
+    }
+    
+    .footer-right {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background: transparent;
+    }
+    
+    #footer-right-heading {
+        cursor: default;
+        margin: 5vh 0 0 10vw;
+        color: #B8F1F4;
+        font-family: Montserrat-Bold;
+        font-size: 1.5em;
+    }
+    
+    .footer-social-media {
+        height: 5vh;
+        width: 5vh;
+        margin-top: 2vh;
+        margin-bottom: 10vh;
+        cursor: pointer;
+    }
+    
+    #fb-logo {
+        margin-left: 10vw;
+    }
+    
+    #linkedin-logo {
+        margin-left: 3vw;
+    }
 }
 
-.footer-left {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 50%;
-    background: transparent;
-}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
 
-#footer-left-heading {
-    cursor: default;
-    margin: 0 0 0 12vw;
-    color: #B8F1F4;
-    font-family: Montserrat-Medium;
-    font-size: 2.2em;
-}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
 
-.contact-i {
-    line-height: 2em;
-    font-family: Montserrat-Thin;
-    font-size: 1em;
-    margin: 5vh 0 0 12vw;
-    cursor: default;
-}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
 
-.c-name{
-    margin: 0;
-    color: white;
-}
-
-.c-email {
-    margin: 0;
-    color: white;
-}
-
-.c-phone {
-    margin: 0;
-    color: white;
-}
-
-.footer-right {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 50%;
-    background: transparent;
-}
-
-#footer-right-heading {
-    cursor: default;
-    margin: 0 0 0 12vw;
-    color: #B8F1F4;
-    font-family: Montserrat-Medium;
-    font-size: 2.2em;
-}
-
-.footer-social-media {
-    height: 5vh;
-    width: 5vh;
-    margin-top: 5vh;
-    cursor: pointer;
-}
-
-#fb-logo {
-    margin-left: 12vw;
-}
-
-#linkedin-logo {
-    margin-left: 1vw;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    footer {
+    
+        height: 50vh;
+        background: transparent;
+        margin: 0;
+        padding: 5vh 0 0 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .footer-left {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 50%;
+        background: transparent;
+    }
+    
+    #footer-left-heading {
+        cursor: default;
+        margin: 0 0 0 12vw;
+        color: #B8F1F4;
+        font-family: Montserrat-Medium;
+        font-size: 2.2em;
+    }
+    
+    .contact-i {
+        line-height: 2em;
+        font-family: Montserrat-Thin;
+        font-size: 1em;
+        margin: 5vh 0 0 12vw;
+        cursor: default;
+    }
+    
+    .c-name{
+        margin: 0;
+        color: white;
+    }
+    
+    .c-email {
+        margin: 0;
+        color: white;
+    }
+    
+    .c-phone {
+        margin: 0;
+        color: white;
+    }
+    
+    .footer-right {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 50%;
+        background: transparent;
+    }
+    
+    #footer-right-heading {
+        cursor: default;
+        margin: 0 0 0 12vw;
+        color: #B8F1F4;
+        font-family: Montserrat-Medium;
+        font-size: 2.2em;
+    }
+    
+    .footer-social-media {
+        height: 5vh;
+        width: 5vh;
+        margin-top: 5vh;
+        cursor: pointer;
+    }
+    
+    #fb-logo {
+        margin-left: 12vw;
+    }
+    
+    #linkedin-logo {
+        margin-left: 1vw;
+    }
 }

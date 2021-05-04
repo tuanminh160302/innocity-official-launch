@@ -431,7 +431,6 @@
         padding: 0;
         /* background: #171223; */
         z-index: 1000;
-        overflow: hidden;
     }
     
     .main-svg {

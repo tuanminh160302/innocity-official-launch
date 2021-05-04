@@ -1,18 +1,11 @@
-.scrollbar-thumb {
-    background: #B8F1F4 !important;
-    z-index: 10000000 !important;
-}
-
-.scrollbar-track {
-    background: transparent !important;
-    z-index: 10000000 !important;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  ::-webkit-scrollbar {
+    width: 5px;
   }
     ::-webkit-scrollbar-track {
-    background: transparent !important;
+    background: rgb(23,18,35);
+    background: linear-gradient(180deg, rgba(23,18,35,1) 0%, rgba(63,75,111,1) 100%);
     z-index: 10000000 !important;
   }
     ::-webkit-scrollbar-thumb {
@@ -20,3 +13,30 @@
     background: #B8F1F4 !important;
     z-index: 10000000 !important;
   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+    ::-webkit-scrollbar-track {
+    background: rgb(23,18,35);
+    background: linear-gradient(180deg, rgba(23,18,35,1) 0%, rgba(63,75,111,1) 100%);
+    z-index: 10000000 !important;
+  }
+    ::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: #B8F1F4 !important;
+    z-index: 10000000 !important;
+  }
+}

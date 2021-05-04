@@ -37,3 +37,7 @@ document.querySelector('#Path_239').addEventListener('mouseover', () => {
 document.querySelector('#Path_237').addEventListener('mouseover', () => {
     gsap.to('#Ellipse_31, #Path_243, #Finland', .15, {delay: .3, opacity: 1})
 })
+
+const goalSvgHeight = document.querySelector('#goal-svg').offsetHeight;
+
+document.getElementById('goal-text-heading').style.marginTop = `${goalSvgHeight}px`;

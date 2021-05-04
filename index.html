@@ -14,11 +14,8 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/scrollbar.css">
     <link rel="stylesheet" href="css/circle.css">
-    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-analytics.js"></script>
-    <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
     <script src="js/landing-preload.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.6.1/smooth-scrollbar.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.6.1/smooth-scrollbar.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 </head>
@@ -61,6 +58,16 @@
     <div class="container">
         <section class="landing-page">
             <section class="landing-page-i landing-page-1">
+                <p class="fade-out" id="landing-page-overall"><img id="landing-page-brand" src="img/dark-logo.png" alt=""> <br> InnoCity xoay
+                    quanh các sáng
+                    kiến đột phá, thực tiễn, phù hợp với Việt Nam cũng như kết hợp sự đổi
+                    mới sáng tạo trên thế giới. Đây sẽ là sân chơi lớn cho giới trẻ Việt Nam tại châu Âu, mở ra các cơ
+                    hội học hỏi, thử thách, hội nhập và cống hiến cho nước nhà
+
+                    <a class="landing-1-button" href="library.html">Tìm hiểu thêm</a>
+                    <!-- <input class="form-text" type="text" placeholder="Enter your email"> -->
+                </p>
+
                 <div class="landing-1-svg-container">
                     <svg data-relative-input="true" data-depth="0.09" id="landing-1-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="443.678"
                     height="949.383" viewBox="0 0 443.678 949.383">
@@ -289,21 +296,10 @@
                     </g>
                 </svg>
                 </div>
-
-
-                <p id="landing-page-overall"><img id="landing-page-brand" src="img/dark-logo.png" alt=""> <br> InnoCity xoay
-                    quanh các sáng
-                    kiến đột phá, thực tiễn, phù hợp với Việt Nam cũng như kết hợp sự đổi
-                    mới sáng tạo trên thế giới. Đây sẽ là sân chơi lớn cho giới trẻ Việt Nam tại châu Âu, mở ra các cơ
-                    hội học hỏi, thử thách, hội nhập và cống hiến cho nước nhà
-
-                    <a class="landing-1-button" href="library.html">Tìm hiểu thêm</a>
-                    <!-- <input class="form-text" type="text" placeholder="Enter your email"> -->
-                </p>
             </section>
 
             <section class="landing-page-i landing-page-2">
-                <p id="post-heading">Important Notes</p>
+                <p id="post-heading">NEWS</p>
                 <hr id="post-heading-hr">
                 <div class="post-container">
                     <div class="post-i-container">
@@ -360,9 +356,6 @@
                     <g id="map-text" clip-path="url(#clip1)">
                     <g id="Group 133_2">
                     <g id="Group 81">
-                    <path id="Path 493" d="M174.906 474L183.224 584.7H168.945L164.426 520.248L125.257 591.774L103.576 520.248L83.402 584.7H68.075L103.052 476.429L128.663 559.09L174.906 474Z" fill="#F2F2F2"/>
-                    <path id="Path 494" d="M223.048 560.919L210.734 584.695H194.425L250.361 476.358L285.273 584.695H269.618L262.28 560.919H223.048ZM229.533 547.949H258.09L247.217 511.99L229.533 547.949Z" fill="#F2F2F2"/>
-                    <path id="Path 495" d="M309.639 483.563H330.139C339.047 483.563 345.837 485.048 350.51 488.017C354.414 490.488 357.546 494.006 359.549 498.17C361.715 502.594 362.836 507.457 362.824 512.383C362.945 519.254 360.804 525.974 356.732 531.509C350.706 539.675 341.209 543.758 328.24 543.758H317.17L312.127 584.695H297.127L309.639 483.563ZM322.87 497.515L318.809 530.462H328.568C334.725 530.462 339.452 528.879 342.749 525.712C346.046 522.545 347.694 517.971 347.694 511.99C347.694 502.34 341.537 497.515 329.223 497.515H322.87Z" fill="#F2F2F2"/>
                     </g>
                     </g>
                     </g>
@@ -1313,33 +1306,34 @@
                     </defs>
                 </svg>
             </section>
-        </section>
-        <footer class="footer">
-            <div class="footer-left">
-                <p id="footer-left-heading">CONTACT</p>
-                <div class="contact-i" id="contact-chair">
-                    <p class="c-name">Vũ Thoại San (Ms.) - Chairwoman</p>
-                    <p class="c-email">info@innocitycompetition.com</p>
-                    <p class="c-phone">+31 644 257 007</p>
-                </div>
-                <div class="contact-i" id="contact-ea">
-                    <p class="c-name">Nguyễn Hương Giang (Ms.) - Phụ trách External Affairs</p>
-                    <p class="c-email">external@innocitycompetition.com</p>
-                    <p class="c-phone">+84 971 514 427</p>
-                </div>
-                <div class="contact-i" id="contact-hr">
-                    <p class="c-name">Đỗ Hà My (Ms.) - Human Resources Manager</p>
-                    <p class="c-email">hr@innocitycompetition.com</p>
-                    <p class="c-phone">+31 622 001 367</p>
-                </div>
-            </div>
 
-            <div class="footer-right">
-                <p id="footer-right-heading">FOLLOW US!</p>
-                <img id="fb-logo" class="footer-social-media" src="/img/fb.png" alt="">
-                <img id="linkedin-logo" class="footer-social-media" src="/img/linkedin.png" alt="">
-            </div>
-        </footer>
+            <footer class="footer">
+                <div class="footer-left">
+                    <p id="footer-left-heading">CONTACT</p>
+                    <div class="contact-i" id="contact-chair">
+                        <p class="c-name">Vũ Thoại San (Ms.) - Chairwoman</p>
+                        <p class="c-email">info@innocitycompetition.com</p>
+                        <p class="c-phone">+31 644 257 007</p>
+                    </div>
+                    <div class="contact-i" id="contact-ea">
+                        <p class="c-name">Nguyễn Hương Giang (Ms.) - Phụ trách External Affairs</p>
+                        <p class="c-email">external@innocitycompetition.com</p>
+                        <p class="c-phone">+84 971 514 427</p>
+                    </div>
+                    <div class="contact-i" id="contact-hr">
+                        <p class="c-name">Đỗ Hà My (Ms.) - Human Resources Manager</p>
+                        <p class="c-email">hr@innocitycompetition.com</p>
+                        <p class="c-phone">+31 622 001 367</p>
+                    </div>
+                </div>
+    
+                <div class="footer-right">
+                    <p id="footer-right-heading">FOLLOW US!</p>
+                    <img id="fb-logo" class="footer-social-media" src="/img/fb.png" alt="">
+                    <img id="linkedin-logo" class="footer-social-media" src="/img/linkedin.png" alt="">
+                </div>
+            </footer>
+        </section>
     </div>
 
     <script src="js/three.min.js"></script>
@@ -1349,7 +1343,7 @@
     <script src="js/TrackballControls.js"></script>
     <script src="js/3d.js"></script>
     <script src="js/index.js"></script>
-    <script src="js/smooth-scrolling.js"></script>
+    <!-- <script src="js/smooth-scrolling.js"></script> -->
     <script src="js/menu.js"></script>
     <script src="js/circle.js"></script>
     <script src="js/general.js"></script>
