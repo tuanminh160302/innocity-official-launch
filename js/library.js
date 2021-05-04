@@ -1,3 +1,10 @@
+window.onload = function() {
+	if(!window.location.hash) {
+		window.location = window.location + '#loaded';
+		window.location.reload();
+	}
+}
+
 document.querySelector('#nav-elt-library').addEventListener('click', () => {
     gsap.to(window, {duration: .9, scrollTo: '.main-svg', ease: 'power4.inOut'})
 })
