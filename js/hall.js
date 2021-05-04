@@ -35,5 +35,5 @@ if (windowWidth >= 1200) {
 
 const hallContentText2 = document.getElementById('hall-content-head-2').offsetHeight
 const hallContentHead2 = document.getElementById('hall-content-text-2').offsetHeight
-const hallContent2 = hallContentHead2 + hallContentText2 + window.screen.height/8
+const hallContent2 = hallContentHead2 + hallContentText2 + window.screen.height/5
 document.getElementsByClassName('grave-con')[0].style.marginTop = `${hallContent2}px`
