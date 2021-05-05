@@ -5,15 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>City Square</title>
+    <title>City Hall</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.6.1/smooth-scrollbar.js"></script> -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.6.1/smooth-scrollbar.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-    <link rel="stylesheet" href="css/square.css">
+    <link rel="stylesheet" href="css/hall.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/circle.css">
     <link rel="stylesheet" href="css/scrollbar.css">
@@ -55,41 +52,6 @@
     </section>
 
     <div class="container">
-        <section class="comp-def">
-            <img id="def-logo" src="/img/dark-logo.png" alt="">
-            <p id="def-head">COMPETITION</p>
-            <div class="def-content-con">
-                <div class="def-content-half">
-                    <p class="def-head">Câu Chuyện</p>
-                    <p class="def-content">Thế giới của InnoCity hiện lên là một thành phố vẫn đang trong quá trình khởi
-                        dựng và kiến tạo. Người đứng đầu và điều hành InnoCity là The Master, không lộ diện cho đến
-                        chặng cuối cùng. The Master với những trăn trở và mong muốn xây dựng InnoCity trở thành một
-                        thành phố đáng sống nhất cho công dân, đã đưa ra Thư Chiêu Mộ nhân tài từ khắp nơi trên lãnh thổ
-                        của Ngài. Những người đại diện cho The Master – chính là The Lighters, bắt đầu phát động cuộc
-                        thi lớn nhất từ trước tới nay ở InnoCity. Mục đích tìm kiếm những thí sinh – cũng chính là công
-                        dân ưu tú của thành phố, dùng sáng kiến của mình để xây dựng InnoCity hướng đến giá trị thông
-                        minh, bền vững và đáng sống.</p>
-                </div>
-                <div class="def-content-half">
-                    <p class="def-head">Nội Dung</p>
-                    <p class="def-content">
-                        Những cư dân tài năng từ khắp nơi, sau khi nghe thông tin về cuộc thi đã đổ về thủ phủ của
-                        InnoCity cùng chung đam mê và chí hướng xây dựng nên một thành phố đáng sống nhất thế giới. Dưới
-                        sự hướng dẫn của The Lighters, các cư dân phải trải qua 3 chặng thử thách để chạm đến ngôi vị
-                        cao nhất của cuộc thi, trở thành công dân ưu tú của thành phố InnoCity và nhận được giải thưởng
-                        danh giá từ The Master.
-
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="comp-details">
-            <p class="def-details-head">Thời gian&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-            <p class="def-details-head">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Địa điểm</p>
-            <img id="comp-svg" src="svg/comp-details.svg" alt="">
-              
-        </section>
-
         <section class="sub-section">
             <svg id="awards-svg" width="1346" height="510" viewBox="0 0 1346 510" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -140,9 +102,10 @@
                     <img id="portal-svg" data-relative-input="true" data-depth="0.09" src="svg/portal-svg.svg" alt="">
                 </div>
             </div>
+
         </section>
         <section class="sub-section">
-            <div class="hall-content-con sub-hall">
+            <div class="hall-content-con fade-in">
                 <div class="hall-svg grave-con">
                     <img id="graveyard-svg" data-relative-input="true" data-depth="-0.09" src="svg/graveyard-svg.svg"
                         alt="">
@@ -160,7 +123,7 @@
                     </p>
                 </div>
             </div>
-            <div class="hall-content-con sub-hall">
+            <div class="hall-content-con fade-in">
                 <div class="hall-content">
                     <p class="hall-content-head-c">Thời gian&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
                     <p class="hall-content-head-c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Địa điểm</p>
@@ -199,16 +162,11 @@
                 <img id="linkedin-logo" class="footer-social-media" src="/img/linkedin.png" alt="">
             </div>
         </footer>
+
     </div>
-
-
-
-
-
-    <!-- <script src="js/smooth-scrolling.js"></script> -->
     <script src="js/circle.js"></script>
     <script src="js/menu.js"></script>
-    <script src="js/square.js"></script>
+    <script src="js/hall.js"></script>
     <script src="js/general.js"></script>
 </body>
 

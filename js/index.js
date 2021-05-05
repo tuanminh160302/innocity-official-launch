@@ -13,10 +13,13 @@ document.querySelector('.landing-preloader-end').addEventListener('click', () =>
     gsap.to('body', 0, { delay: 2.2, backgroundColor: '#171223' })
 })
 
-var sceneParallax = document.querySelector('.landing-1-svg-container');
-var parallaxInstance = new Parallax(sceneParallax, {
-    relativeInput: true
-});
+const windowWidth = window.screen.width
+if (windowWidth >= 1200) {
+    var sceneParallax = document.querySelector('.landing-1-svg-container');
+    var parallaxInstance = new Parallax(sceneParallax, {
+        relativeInput: true
+    });
+}
 
 for (let i = 0; i < 2; i++) {
     document.querySelectorAll('.contact-trigger')[i].addEventListener('click', () => {

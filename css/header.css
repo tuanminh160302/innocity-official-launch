@@ -321,7 +321,7 @@
     
     .menu-container {
         height: 100vh;
-        width: 100vw;
+        width: 35vw;
         margin: 0;
         padding: 0;
         position: fixed;
@@ -340,10 +340,15 @@
         -ms-transform-origin: right;
         -o-transform-origin: right;
         border: 0px;
+        -webkit-box-shadow: 5px 5px 15px 5px #000000;
+        -moz-box-shadow: 5px 5px 15px 5px #000000;
+		-o-box-shadow: 5px 5px 15px 5px #000000;
+		-ms-box-shadow: 5px 5px 15px 5px #000000;
+		box-shadow: 5px 5px 15px 5px #000000;
     }
     
     .menu-container-right {
-        display: flex;
+        display: none;
         flex-direction: column;
         width: 50%;
         height: 100%;
@@ -378,12 +383,12 @@
     .menu-nav-ul {
         position: absolute;
         height: 65vh;
-        width: 40vw;
+        width: 25vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: flex-start;
-        left: 10vw;
+        left: 5vw;
         top: 50%;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);

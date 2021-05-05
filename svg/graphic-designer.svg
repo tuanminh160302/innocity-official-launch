@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1087" height="850" viewBox="0 0 1087 850">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.658" y1="-0.266" x2="0.405" y2="0.961" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#383a5f"/>
+      <stop offset="1" stop-color="#171223"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_52" data-name="Rectangle 52" width="444" height="704" transform="translate(434 2731)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="2.907" y1="-23.013" x2="2.907" y2="-22.024" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7bfabb"/>
+      <stop offset="0.064" stop-color="#6dd2a8"/>
+      <stop offset="0.142" stop-color="#5faa94"/>
+      <stop offset="0.226" stop-color="#538784"/>
+      <stop offset="0.314" stop-color="#496b76"/>
+      <stop offset="0.407" stop-color="#41556c"/>
+      <stop offset="0.51" stop-color="#3c4564"/>
+      <stop offset="0.628" stop-color="#383c60"/>
+      <stop offset="0.798" stop-color="#383a5f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="3.852" y1="-20.996" x2="3.852" y2="-20.007" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="4.784" y1="-18.975" x2="4.784" y2="-17.986" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-5" x1="5.729" y1="-16.958" x2="5.729" y2="-15.969" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-6" x1="6.67" y1="-14.932" x2="6.67" y2="-13.943" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-7" x1="2.279" y1="-4.988" x2="2.279" y2="-4.082" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-8" x1="2.81" y1="-4.705" x2="2.81" y2="-3.799" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-9" x1="3.34" y1="-4.416" x2="3.34" y2="-3.51" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-10" x1="3.871" y1="-4.133" x2="3.871" y2="-3.227" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-11" x1="4.404" y1="-3.846" x2="4.404" y2="-2.94" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="Group_62" data-name="Group 62" transform="translate(-434 -2632)">
+    <rect id="Rectangle_38" data-name="Rectangle 38" width="444" height="704" transform="translate(434 2731)" fill="url(#linear-gradient)"/>
+    <g id="Group_24" data-name="Group 24">
+      <g id="Group_23" data-name="Group 23" clip-path="url(#clip-path)">
+        <g id="Group_21" data-name="Group 21">
+          <path id="Path_40" data-name="Path 40" d="M333.379,2706.524l128.066-55.573,517.936,453.906L896,3200Z" fill="#171223" stroke="#091d49" stroke-miterlimit="10" stroke-width="1"/>
+          <rect id="Rectangle_42" data-name="Rectangle 42" width="107.592" height="116.385" transform="matrix(-0.659, 0.752, -0.752, -0.659, 960.202, 3101.018)" fill="url(#linear-gradient-2)"/>
+          <rect id="Rectangle_43" data-name="Rectangle 43" width="107.592" height="116.385" transform="matrix(-0.659, 0.752, -0.752, -0.659, 859.039, 3012.755)" fill="url(#linear-gradient-3)"/>
+          <rect id="Rectangle_44" data-name="Rectangle 44" width="107.592" height="116.385" transform="matrix(-0.659, 0.752, -0.752, -0.659, 758.265, 2924.046)" fill="url(#linear-gradient-4)"/>
+          <rect id="Rectangle_45" data-name="Rectangle 45" width="107.592" height="116.385" transform="matrix(-0.659, 0.752, -0.752, -0.659, 657.102, 2835.783)" fill="url(#linear-gradient-5)"/>
+          <rect id="Rectangle_46" data-name="Rectangle 46" width="107.592" height="116.385" transform="matrix(-0.659, 0.752, -0.752, -0.659, 555.79, 2746.995)" fill="url(#linear-gradient-6)"/>
+        </g>
+        <g id="Group_22" data-name="Group 22">
+          <path id="Path_41" data-name="Path 41" d="M424.5,3395.5,306.876,3205.816l495.306-565.177,160.942,141.045Z" fill="#171223" stroke="#091d49" stroke-miterlimit="10" stroke-width="1"/>
+          <rect id="Rectangle_47" data-name="Rectangle 47" width="182" height="127" transform="matrix(0.752, 0.659, -0.659, 0.752, 802.398, 2665.427)" fill="url(#linear-gradient-7)"/>
+          <rect id="Rectangle_48" data-name="Rectangle 48" width="182" height="127" transform="matrix(0.752, 0.659, -0.659, 0.752, 706.217, 2775.934)" fill="url(#linear-gradient-8)"/>
+          <rect id="Rectangle_49" data-name="Rectangle 49" width="182" height="127" transform="matrix(0.752, 0.659, -0.659, 0.752, 609.285, 2885.782)" fill="url(#linear-gradient-9)"/>
+          <rect id="Rectangle_50" data-name="Rectangle 50" width="182" height="127" transform="matrix(0.752, 0.659, -0.659, 0.752, 513.104, 2996.289)" fill="url(#linear-gradient-10)"/>
+          <rect id="Rectangle_51" data-name="Rectangle 51" width="182" height="127" transform="matrix(0.752, 0.659, -0.659, 0.752, 416.218, 3106.843)" fill="url(#linear-gradient-11)"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_110" data-name="Rectangle 110" width="643" height="850" transform="translate(878 2632)" fill="#383a5f"/>
+    <text id="Graphic_Designer" data-name="Graphic
+Designer" transform="translate(926 2841.089)" fill="#fff" font-size="59.919" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Graphic</tspan><tspan x="0" y="71.903">Designer</tspan></text>
+    <text id="_Job_Description_" data-name=" Job Description " transform="translate(930.959 2988.458)" fill="#b8f1f4" font-size="28" font-family="Roboto-Thin, Roboto" font-weight="200"><tspan x="0" y="0" xml:space="preserve"> Job Description </tspan></text>
+    <rect id="Rectangle_111" data-name="Rectangle 111" width="384" height="20" transform="translate(931 2754)" fill="#b8f1f4"/>
+    <text id="Với_vị_trí_Graphic_Designer_chúng_tôi_luôn_tìm_kiếm_các_bạn_trẻ_với_sự_sáng_tạo_tư_duy_nghệ_thuật_tốt_cùng_khả_năng_sử_dụng_các_công_cụ_Adobe_và_tinh_thần_trách_nhiệm._Công_việc_của_các_bạn_gồm:_Tham_gia_định_hình_sáng_tạo_và_xây_nên_hình_ảnh_của_t" data-name="Với vị trí Graphic Designer, chúng tôi luôn tìm kiếm các bạn trẻ với sự sáng tạo, tư duy nghệ thuật tốt, cùng khả năng sử dụng các công cụ Adobe và tinh thần trách nhiệm. Công việc của các bạn gồm:
+
+   Tham gia định hình, sáng tạo và xây nên hình ảnh của t" transform="translate(947.265 3004.198)" fill="#fff" font-size="19" font-family="Roboto-Thin, Roboto" font-weight="200"><tspan x="0" y="20">Với vị trí Graphic Designer, chúng tôi luôn tìm kiếm các </tspan><tspan x="0" y="42.8">bạn trẻ với sự sáng tạo, tư duy nghệ thuật tốt, cùng khả </tspan><tspan x="0" y="65.6">năng sử dụng các công cụ Adobe và tinh thần trách </tspan><tspan x="0" y="88.4">nhiệm. Công việc của các bạn gồm:</tspan><tspan x="0" y="111.2"></tspan><tspan x="0" y="134" xml:space="preserve">   Tham gia định hình, sáng tạo và xây nên hình ảnh của </tspan><tspan x="0" y="156.8">tổ chức trên các nền tảng kỹ thuật số, và các sản phẩm, </tspan><tspan x="0" y="179.6">ấn phẩm được xuất bản phục vụ mục đích truyền thông, </tspan><tspan x="0" y="202.4">quảng bá và xây dựng bộnhận diện cho chương trình.</tspan><tspan x="0" y="225.2"></tspan><tspan x="0" y="248" xml:space="preserve">   Tham gia sản xuất toàn bộ mảng hình ảnh, đồ họa của </tspan><tspan x="0" y="270.8">các sản phẩm và ấn phẩm trong chương trình</tspan><tspan x="0" y="293.6"></tspan><tspan x="0" y="316.4" xml:space="preserve">   Tham gia lên ý tưởng thiết kế cho các chiến dịch </tspan><tspan x="0" y="339.2">quảng bá của ICC</tspan><tspan font-family="Roboto-Thin"><tspan x="0" y="362"></tspan></tspan></text>
+  </g>
+</svg>

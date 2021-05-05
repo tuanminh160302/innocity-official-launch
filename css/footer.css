@@ -1,10 +1,10 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     footer {
-        min-height: 50vh;
+        height: auto;
         background: transparent;
         margin: 0;
-        padding: 5vh 0 0 0;
+        padding: 5vh 0 5vh 0;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -69,7 +69,6 @@
         height: 5vh;
         width: 5vh;
         margin-top: 2vh;
-        margin-bottom: 10vh;
         cursor: pointer;
     }
     
@@ -94,11 +93,10 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     footer {
-    
-        height: 50vh;
+        height: auto;
         background: transparent;
         margin: 0;
-        padding: 5vh 0 0 0;
+        padding: 5vh 0 5vh 0;
         width: 100vw;
         display: flex;
         flex-direction: row;
