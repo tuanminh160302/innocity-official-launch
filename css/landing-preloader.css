@@ -439,6 +439,7 @@
         -ms-transform: translateX(-50%) translateY(40vh);
         font-size: 2.5em;
         font-weight: bold;
+        width: auto;
         opacity: 0;
         display: none;
         margin: 0;

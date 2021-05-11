@@ -861,7 +861,7 @@
     }
     
     .comp-def {
-        height: auto;
+        min-height: auto;
         width: 100vw;
         margin: 0 0 10vh 0;
         padding: 0;
@@ -895,7 +895,7 @@
     }
     
     .def-content-con {
-        height: auto;
+        min-height: auto;
         width: 70vw;
         margin: 5vh 0 0 0;
         padding: 0;
@@ -955,7 +955,7 @@
     }
     
     #comp-svg {
-        margin-top: 5vh;
+        margin: 5vh 0 0 0;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
@@ -996,7 +996,7 @@
     
     .hall-content-con {
         width: 70vw;
-        height: auto;
+        min-height: auto;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
@@ -1016,7 +1016,7 @@
     }
 
     .hall-content {
-        min-height: 100%;
+        height: auto;
         width: 45%;
         margin: 0;
         padding: 0;
@@ -1042,6 +1042,10 @@
     #graveyard-svg {
         width: 80%;
         height: auto;
+    }
+
+    #hall-content-2 {
+        position: relative !important;
     }
     
     .hall-content-letter {

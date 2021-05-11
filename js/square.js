@@ -43,7 +43,9 @@ if (windowWidth >= 1200) {
     var parallaxInstance = new Parallax(sceneParallax, {
         relativeInput: true
     });
-} else {
+} 
+
+if (windowWidth < 1200) {
     const hallContentText2 = document.getElementById('hall-content-head-2').offsetHeight
     const hallContentHead2 = document.getElementById('hall-content-text-2').offsetHeight
     const hallContent2 = hallContentHead2 + hallContentText2 + window.screen.height/5

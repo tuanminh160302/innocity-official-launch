@@ -251,14 +251,14 @@
     }
     
     #map-top {
-        height: auto !important;
-        width: 80vw !important;
+        height: auto;
+        width: 80vw;
         margin-top: 3vh;
     }
     
     #map-bottom {
-        height: auto !important;
-        width: 80vw !important;
+        height: auto;
+        width: 80vw;
         margin-top: 5vh;
     }
     
@@ -581,14 +581,14 @@
     }
     
     #map-top {
-        height: auto !important;
-        width: 80vw !important;
+        height: auto;
+        width: 80vw;
         margin-top: 3vh;
     }
     
     #map-bottom {
-        height: auto !important;
-        width: 80vw !important;
+        height: auto;
+        width: 80vw;
         margin-top: 5vh;
     }
     
@@ -825,11 +825,11 @@
     #goal-svg {
         position: absolute;
         top: 7.5vh;
-        width: 80vw !important;
+        width: 80vw;
     }
 
     #vision-svg-container {
-        margin-top: 0 !important;
+        margin-top: 0;
     }
     
     /* Style vision-svg */
@@ -912,14 +912,14 @@
     }
     
     #map-top {
-        height: auto !important;
-        width: 80vw !important;
+        height: auto;
+        width: 80vw;
         margin-top: 3vh;
     }
     
     #map-bottom {
-        height: auto !important;
-        width: 80vw !important;
+        height: auto;
+        width: 80vw;
         margin-top: 5vh;
     }
     
@@ -1156,11 +1156,11 @@
     #goal-svg {
         position: absolute;
         top: 7.5vh;
-        width: 60vw !important;
+        width: 60vw;
     }
 
     #vision-svg-container {
-        margin-top: 0 !important;
+        margin-top: 0;
     }
     
     /* Style vision-svg */
@@ -1243,14 +1243,14 @@
     }
     
     #map-top {
-        height: auto !important;
-        width: 80vw !important;
+        height: auto;
+        width: 80vw;
         margin-top: 3vh;
     }
     
     #map-bottom {
-        height: auto !important;
-        width: 80vw !important;
+        height: auto;
+        width: 80vw;
         margin-top: 5vh;
     }
     
@@ -1404,7 +1404,7 @@
     }
     
     .sub-section {
-        height: auto;
+        min-height: auto;
         width: 100vw;
         margin: 0 0 10vh 0;
         padding: 0;
@@ -1443,7 +1443,7 @@
     }
     
     .text-container {
-        height: auto;
+        min-height: auto;
         width: 55vw;
         margin: 0;
         padding: 0;
@@ -1455,8 +1455,9 @@
     }
     
     .section-svg {
+        position: relative !important;
         height: auto;
-        width: 70%;
+        width: 70% !important;
     }
     
     /* Style vision-svg */
