@@ -978,6 +978,7 @@
         text-decoration: none;
         font-family: Montserrat-Medium;
         font-size: 3em;
+        width: auto;
         opacity: 0;
         transform: translateX(-5vw);
     }
