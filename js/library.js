@@ -26,7 +26,7 @@ document.querySelector('#Path_237').addEventListener('mouseover', () => {
 })
 
 const windowWidth = window.screen.width
-if (windowWidth <= 600) {
+if (windowWidth <= 1200) {
     const goalSvgHeight = document.querySelector('#goal-svg').offsetHeight;
     document.getElementById('goal-text-heading').style.marginTop = `${goalSvgHeight}px`;
 }

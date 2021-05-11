@@ -16,13 +16,55 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+    ::-webkit-scrollbar-track {
+    background: rgb(23,18,35);
+    background: linear-gradient(180deg, rgba(23,18,35,1) 0%, rgba(63,75,111,1) 100%);
+    z-index: 10000000 !important;
+  }
+    ::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: #B8F1F4 !important;
+    z-index: 10000000 !important;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+    ::-webkit-scrollbar-track {
+    background: rgb(23,18,35);
+    background: linear-gradient(180deg, rgba(23,18,35,1) 0%, rgba(63,75,111,1) 100%);
+    z-index: 10000000 !important;
+  }
+    ::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: #B8F1F4 !important;
+    z-index: 10000000 !important;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+    ::-webkit-scrollbar-track {
+    background: rgb(23,18,35);
+    background: linear-gradient(180deg, rgba(23,18,35,1) 0%, rgba(63,75,111,1) 100%);
+    z-index: 10000000 !important;
+  }
+    ::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: #B8F1F4 !important;
+    z-index: 10000000 !important;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {

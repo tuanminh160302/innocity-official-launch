@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Montserrat-Thin;
+    src: url(/fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/fonts/Montserrat-Bold.ttf);
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background: rgb(23,18,35);
+        background: linear-gradient(180deg, rgba(23,18,35,1) 0%, rgba(63,75,111,1) 100%);
+    }
+    
+    .container {
+        top: 15vh;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+    }
+    
+    iframe {
+        display: block;
+        height: 85vh;
+        width: 100%;
+        z-index: 1000;
+        background: transparent !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background: rgb(23,18,35);
+        background: linear-gradient(180deg, rgba(23,18,35,1) 0%, rgba(63,75,111,1) 100%);
+    }
+    
+    .container {
+        top: 15vh;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+    }
+    
+    iframe {
+        display: block;
+        height: 85vh;
+        width: 100%;
+        z-index: 1000;
+        background: transparent !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background: rgb(23,18,35);
+        background: linear-gradient(180deg, rgba(23,18,35,1) 0%, rgba(63,75,111,1) 100%);
+    }
+    
+    .container {
+        top: 15vh;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+    }
+    
+    iframe {
+        display: block;
+        height: 85vh;
+        width: 100%;
+        z-index: 1000;
+        background: transparent !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background: rgb(23,18,35);
+        background: linear-gradient(180deg, rgba(23,18,35,1) 0%, rgba(63,75,111,1) 100%);
+    }
+    
+    .container {
+        top: 15vh;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+    }
+    
+    iframe {
+        display: block;
+        height: 85vh;
+        width: 100%;
+        z-index: 1000;
+        background: transparent !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background: rgb(23,18,35);
+        background: linear-gradient(180deg, rgba(23,18,35,1) 0%, rgba(63,75,111,1) 100%);
+    }
+    
+    .container {
+        top: 15vh;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+    }
+    
+    iframe {
+        display: block;
+        height: 85vh;
+        width: 100%;
+        z-index: 1000;
+        background: transparent !important;
+    }
+}

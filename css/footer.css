@@ -82,13 +82,253 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    footer {
+        height: auto;
+        background: transparent;
+        margin: 0;
+        padding: 5vh 0 5vh 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-left {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background: transparent;
+    }
+    
+    #footer-left-heading {
+        cursor: default;
+        margin: 0 0 0 10vw;
+        color: #B8F1F4;
+        font-family: Montserrat-Bold;
+        font-size: 1.5em;
+    }
+    
+    .contact-i {
+        line-height: 1.75em;
+        font-family: Montserrat-Medium;
+        font-size: .75em;
+        margin: 2vh 10vw 0 10vw;
+        cursor: default;
+    }
+    
+    .c-name{
+        margin: 0;
+        color: white;
+    }
+    
+    .c-email {
+        margin: 0;
+        color: white;
+    }
+    
+    .c-phone {
+        margin: 0;
+        color: white;
+    }
+    
+    .footer-right {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background: transparent;
+    }
+    
+    #footer-right-heading {
+        cursor: default;
+        margin: 5vh 0 0 10vw;
+        color: #B8F1F4;
+        font-family: Montserrat-Bold;
+        font-size: 1.5em;
+    }
+    
+    .footer-social-media {
+        height: 5vh;
+        width: 5vh;
+        margin-top: 2vh;
+        cursor: pointer;
+    }
+    
+    #fb-logo {
+        margin-left: 10vw;
+    }
+    
+    #linkedin-logo {
+        margin-left: 3vw;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    footer {
+        height: auto;
+        background: transparent;
+        margin: 0;
+        padding: 5vh 0 5vh 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-left {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background: transparent;
+    }
+    
+    #footer-left-heading {
+        cursor: default;
+        margin: 0 0 0 10vw;
+        color: #B8F1F4;
+        font-family: Montserrat-Bold;
+        font-size: 2em;
+    }
+    
+    .contact-i {
+        line-height: 1.75em;
+        font-family: Montserrat-Medium;
+        font-size: 1em;
+        margin: 2vh 10vw 0 10vw;
+        cursor: default;
+    }
+    
+    .c-name{
+        margin: 0;
+        color: white;
+    }
+    
+    .c-email {
+        margin: 0;
+        color: white;
+    }
+    
+    .c-phone {
+        margin: 0;
+        color: white;
+    }
+    
+    .footer-right {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background: transparent;
+    }
+    
+    #footer-right-heading {
+        cursor: default;
+        margin: 5vh 0 0 10vw;
+        color: #B8F1F4;
+        font-family: Montserrat-Bold;
+        font-size: 1.5em;
+    }
+    
+    .footer-social-media {
+        height: 5vh;
+        width: 5vh;
+        margin-top: 2vh;
+        cursor: pointer;
+    }
+    
+    #fb-logo {
+        margin-left: 10vw;
+    }
+    
+    #linkedin-logo {
+        margin-left: 3vw;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    footer {
+        height: auto;
+        background: transparent;
+        margin: 0;
+        padding: 5vh 0 5vh 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-left {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background: transparent;
+    }
+    
+    #footer-left-heading {
+        cursor: default;
+        margin: 0 0 0 10vw;
+        color: #B8F1F4;
+        font-family: Montserrat-Bold;
+        font-size: 3em;
+    }
+    
+    .contact-i {
+        line-height: 1.75em;
+        font-family: Montserrat-Medium;
+        font-size: 1.5em;
+        margin: 2vh 10vw 0 10vw;
+        cursor: default;
+    }
+    
+    .c-name{
+        margin: 0;
+        color: white;
+    }
+    
+    .c-email {
+        margin: 0;
+        color: white;
+    }
+    
+    .c-phone {
+        margin: 0;
+        color: white;
+    }
+    
+    .footer-right {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background: transparent;
+    }
+    
+    #footer-right-heading {
+        cursor: default;
+        margin: 5vh 0 0 10vw;
+        color: #B8F1F4;
+        font-family: Montserrat-Bold;
+        font-size: 1.5em;
+    }
+    
+    .footer-social-media {
+        height: 5vh;
+        width: 5vh;
+        margin-top: 2vh;
+        cursor: pointer;
+    }
+    
+    #fb-logo {
+        margin-left: 10vw;
+    }
+    
+    #linkedin-logo {
+        margin-left: 3vw;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
