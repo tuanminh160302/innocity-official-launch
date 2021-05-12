@@ -955,6 +955,26 @@
         border: none;
         outline: none;
     }
+
+    .language {
+        height: 7.5vh;
+        width: 16vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: absolute;
+        top: 5vh;
+        left: 5vw;
+        opacity: 0;
+    }
+
+    .language img {
+        height: 7.5vh;
+        width: 7.5vh;
+        cursor: pointer;
+    }
     
     .menu-nav-ul {
         position: absolute;
