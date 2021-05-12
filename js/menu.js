@@ -26,8 +26,12 @@ document.querySelector('#menu').addEventListener('click', () => {
 
 var language = 'vn'
 
+language = localStorage.getItem('languageStorage')
+console.log(language)
+
 document.getElementById('vn').addEventListener('click', () => {
     language = 'vn'
+    localStorage.setItem("languageStorage", language);
     console.log(language)
     setTimeout(() => {
         document.location.href = 'index'
@@ -36,6 +40,7 @@ document.getElementById('vn').addEventListener('click', () => {
 
 document.getElementById('eng').addEventListener('click', () => {
     language = 'eng'
+    localStorage.setItem("languageStorage", language);
     console.log(language)
     setTimeout(() => {
         document.location.href = 'eng-index'
