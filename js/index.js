@@ -1,3 +1,5 @@
+//FUNCTION FOR index.html & eng-index.html
+
 document.querySelector('.landing-preloader-end').addEventListener('click', () => {
     gsap.to('.landing-preloader-end', .3, { opacity: 0 })
     gsap.to('.landing-preloader-end', 0, { delay: .3, display: 'none' })

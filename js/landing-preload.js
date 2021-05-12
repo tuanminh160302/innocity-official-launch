@@ -1,3 +1,5 @@
+//FUNCTION FOR THE PRELOADER
+
 window.onload = () => {
     setTimeout(() => {
         gsap.to('.landing-preloader-text', .3, { opacity: 0})

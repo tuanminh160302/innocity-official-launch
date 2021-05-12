@@ -1,3 +1,5 @@
+//RENDERING THE 3D MODEL
+
 //variables set up
 let container, scene, camera, renderer, building, controls, controls2;
 

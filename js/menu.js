@@ -1,3 +1,5 @@
+//FUNCTION FOR THE MENU
+
 $(document).ready(function(){
 	$('#menu').click(function(){
 		$(this).toggleClass('open');

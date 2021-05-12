@@ -1,3 +1,5 @@
+//FUNCTION THE CIRCLE THAT FOLLOWS THE CURSOR
+
 jQuery(document).ready(function () {
 
     var mouseX = 0, mouseY = 0;

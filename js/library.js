@@ -1,3 +1,5 @@
+//FUNCTION FOR library.html & eng-library.html
+
 window.onload = function() {
 	if(!window.location.hash) {
 		window.location = window.location + '#loaded';

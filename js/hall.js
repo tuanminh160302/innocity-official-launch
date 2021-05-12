@@ -1,3 +1,5 @@
+//FUNCTION FOR city-hall.html & eng-city-hall.html
+
 positionTagWidth = document.querySelector('.position-tag').offsetWidth * 0.6
 
 var slideIndex = 1

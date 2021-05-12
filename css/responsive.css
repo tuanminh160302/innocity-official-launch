@@ -1,39 +1,16 @@
-@font-face {
-    font-family: Montserrat-Thin;
-    src: url(/fonts/Montserrat-Thin.ttf);
-}
+/* RESPONSIVE BREAKPOINTS */
 
-@font-face {
-    font-family: Montserrat-Medium;
-    src: url(/fonts/Montserrat-Medium.ttf);
-}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
 
-@font-face {
-    font-family: Montserrat-Bold;
-    src: url(/fonts/Montserrat-Bold.ttf);
-}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
 
-html, body {
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    background: black;
-}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
 
-#under-construction {
-    color: white;
-    font-size: 2em;
-    font-family: Montserrat-Medium;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    line-height: 1.5em;
-    margin: 0;
-}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

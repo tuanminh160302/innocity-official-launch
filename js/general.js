@@ -1,10 +1,3 @@
-// document.querySelector('#logo').addEventListener('click', () => {
-//     console.log(language)
-//     // if (language === 'vn') {
-//     //     document.location.href = 'index'
-//     // } else if (language === 'eng') {
-//     //     document.location.href = 'eng-index'
-//     // }
-// })
+// GENERAL FUNCTION FOR ALL HTML (currently empty)
 
-// screen.lockOrientationUniversal = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation;
+//CODE GOES HERE
