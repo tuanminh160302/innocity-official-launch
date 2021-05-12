@@ -27,12 +27,10 @@ document.querySelector('#menu').addEventListener('click', () => {
 var language = 'vn'
 
 language = localStorage.getItem('languageStorage')
-console.log(language)
 
 document.getElementById('vn').addEventListener('click', () => {
     language = 'vn'
     localStorage.setItem("languageStorage", language);
-    console.log(language)
     setTimeout(() => {
         document.location.href = 'index'
     })
@@ -41,19 +39,17 @@ document.getElementById('vn').addEventListener('click', () => {
 document.getElementById('eng').addEventListener('click', () => {
     language = 'eng'
     localStorage.setItem("languageStorage", language);
-    console.log(language)
     setTimeout(() => {
         document.location.href = 'eng-index'
     })
 })
 
 document.querySelector('#logo').addEventListener('click', () => {
-    console.log(language)
-    // if (language === 'vn') {
-    //     document.location.href = 'index'
-    // } else if (language === 'eng') {
-    //     document.location.href = 'eng-index'
-    // }
+    if (language === 'vn') {
+        document.location.href = 'index'
+    } else if (language === 'eng') {
+        document.location.href = 'eng-index'
+    }
 })
 
 screen.lockOrientationUniversal = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation;
